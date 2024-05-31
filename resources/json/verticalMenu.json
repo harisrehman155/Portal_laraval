@@ -1,0 +1,49 @@
+{
+    "menu": [{
+            "url": "dashboard",
+            "route": "portal.dashboard",
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "badgeClass": "badge badge-warning badge-pill float-right",
+            "icon": "feather icon-home",
+            "type":0
+        },
+        {
+            "url": "vector-order",
+            "route": "vector.order",
+            "name": "New Vector Order",
+            "slug": "vector-order",
+            "badgeClass": "badge badge-warning badge-pill float-right",
+            "icon": "feather icon-shopping-cart",
+            "type":1
+        },
+        {
+            "url": "vector-orders",
+            "route": "vectorListView",
+            "name": "View Vector Order",
+            "slug": "vector-orders",
+            "badgeClass": "badge badge-warning badge-pill float-right",
+            "icon": "feather icon-eye",
+            "type":0
+        },
+        {
+            "url": "digitizing-order",
+            "route": "digitizing.order",
+            "name": "New Digitizing Order",
+            "slug": "digitizing-order",
+            "badgeClass": "badge badge-warning badge-pill float-right",
+            "icon": "feather icon-shopping-cart",
+            "type":1
+        },
+        {
+            "url": "digitizing-orders",
+            "route": "digitizingListView",
+            "name": "View Digitizing Order",
+            "slug": "digitizing-orders",
+            "badgeClass": "badge badge-warning badge-pill float-right",
+            "icon": "feather icon-eye",
+            "type":0
+        }
+
+    ]
+}

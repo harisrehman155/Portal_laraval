@@ -1,0 +1,9 @@
+{
+  "menu": [{
+    "url": "dashboard-analytics",
+    "name": "Dashboard",
+    "slug": "dashboard",
+    "icon": "feather icon-home",
+    "i18n": "Dashboard"
+  }]
+}

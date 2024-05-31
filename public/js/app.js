@@ -1,0 +1,1 @@
+function toDetailPage(o){location.replace(o)}$(window).scroll((function(){0==$(document).scrollTop()?$("#header").removeClass("nav-small"):$("#header").addClass("nav-small")})),$(window).scroll((function(){900>=$(document).scrollTop()?$("#scroll-to-top").hide(300):$("#scroll-to-top").show(300)}));

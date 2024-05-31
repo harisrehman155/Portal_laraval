@@ -1,0 +1,60 @@
+[2024-04-24 14:35:37] local.ERROR: File not found at path: 1885/60354a5797c2f_jacksbro-golf-01.pdf {"userId":8,"exception":"[object] (Illuminate\\Contracts\\Filesystem\\FileNotFoundException(code: 0): File not found at path: 1885/60354a5797c2f_jacksbro-golf-01.pdf at /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php:452)
+[stacktrace]
+#0 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Filesystem.php(153): Illuminate\\Filesystem\\FilesystemAdapter->readStream('1885//60354a579...')
+#1 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Models/Media.php(283): Spatie\\MediaLibrary\\MediaCollections\\Filesystem->getStream(Object(Spatie\\MediaLibrary\\MediaCollections\\Models\\Media))
+#2 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(72): Spatie\\MediaLibrary\\MediaCollections\\Models\\Media->stream()
+#3 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php(176): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}(Array, 0)
+#4 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(79): Illuminate\\Support\\Collection->each(Object(Closure))
+#5 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(64): Spatie\\MediaLibrary\\Support\\MediaStream->getZipStream()
+#6 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/StreamedResponse.php(112): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}()
+#7 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/Response.php(381): Symfony\\Component\\HttpFoundation\\StreamedResponse->sendContent()
+#8 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/HigherOrderTapProxy.php(34): Symfony\\Component\\HttpFoundation\\Response->send()
+#9 /home/u816186965/domains/terminatorpunch.com/public_html/portal/public/index.php(53): Illuminate\\Support\\HigherOrderTapProxy->__call('send', Array)
+#10 {main}
+
+[previous exception] [object] (League\\Flysystem\\FileNotFoundException(code: 0): File not found at path: 1885/60354a5797c2f_jacksbro-golf-01.pdf at /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/league/flysystem/src/Filesystem.php:389)
+[stacktrace]
+#0 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/league/flysystem/src/Filesystem.php(194): League\\Flysystem\\Filesystem->assertPresent('1885/60354a5797...')
+#1 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php(450): League\\Flysystem\\Filesystem->readStream('1885/60354a5797...')
+#2 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Filesystem.php(153): Illuminate\\Filesystem\\FilesystemAdapter->readStream('1885//60354a579...')
+#3 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Models/Media.php(283): Spatie\\MediaLibrary\\MediaCollections\\Filesystem->getStream(Object(Spatie\\MediaLibrary\\MediaCollections\\Models\\Media))
+#4 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(72): Spatie\\MediaLibrary\\MediaCollections\\Models\\Media->stream()
+#5 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php(176): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}(Array, 0)
+#6 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(79): Illuminate\\Support\\Collection->each(Object(Closure))
+#7 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(64): Spatie\\MediaLibrary\\Support\\MediaStream->getZipStream()
+#8 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/StreamedResponse.php(112): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}()
+#9 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/Response.php(381): Symfony\\Component\\HttpFoundation\\StreamedResponse->sendContent()
+#10 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/HigherOrderTapProxy.php(34): Symfony\\Component\\HttpFoundation\\Response->send()
+#11 /home/u816186965/domains/terminatorpunch.com/public_html/portal/public/index.php(53): Illuminate\\Support\\HigherOrderTapProxy->__call('send', Array)
+#12 {main}
+"} 
+[2024-04-24 14:35:44] local.ERROR: File not found at path: 1885/60354a5797c2f_jacksbro-golf-01.pdf {"userId":8,"exception":"[object] (Illuminate\\Contracts\\Filesystem\\FileNotFoundException(code: 0): File not found at path: 1885/60354a5797c2f_jacksbro-golf-01.pdf at /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php:452)
+[stacktrace]
+#0 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Filesystem.php(153): Illuminate\\Filesystem\\FilesystemAdapter->readStream('1885//60354a579...')
+#1 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Models/Media.php(283): Spatie\\MediaLibrary\\MediaCollections\\Filesystem->getStream(Object(Spatie\\MediaLibrary\\MediaCollections\\Models\\Media))
+#2 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(72): Spatie\\MediaLibrary\\MediaCollections\\Models\\Media->stream()
+#3 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php(176): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}(Array, 0)
+#4 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(79): Illuminate\\Support\\Collection->each(Object(Closure))
+#5 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(64): Spatie\\MediaLibrary\\Support\\MediaStream->getZipStream()
+#6 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/StreamedResponse.php(112): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}()
+#7 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/Response.php(381): Symfony\\Component\\HttpFoundation\\StreamedResponse->sendContent()
+#8 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/HigherOrderTapProxy.php(34): Symfony\\Component\\HttpFoundation\\Response->send()
+#9 /home/u816186965/domains/terminatorpunch.com/public_html/portal/public/index.php(53): Illuminate\\Support\\HigherOrderTapProxy->__call('send', Array)
+#10 {main}
+
+[previous exception] [object] (League\\Flysystem\\FileNotFoundException(code: 0): File not found at path: 1885/60354a5797c2f_jacksbro-golf-01.pdf at /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/league/flysystem/src/Filesystem.php:389)
+[stacktrace]
+#0 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/league/flysystem/src/Filesystem.php(194): League\\Flysystem\\Filesystem->assertPresent('1885/60354a5797...')
+#1 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php(450): League\\Flysystem\\Filesystem->readStream('1885/60354a5797...')
+#2 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Filesystem.php(153): Illuminate\\Filesystem\\FilesystemAdapter->readStream('1885//60354a579...')
+#3 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/MediaCollections/Models/Media.php(283): Spatie\\MediaLibrary\\MediaCollections\\Filesystem->getStream(Object(Spatie\\MediaLibrary\\MediaCollections\\Models\\Media))
+#4 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(72): Spatie\\MediaLibrary\\MediaCollections\\Models\\Media->stream()
+#5 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/Traits/EnumeratesValues.php(176): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}(Array, 0)
+#6 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(79): Illuminate\\Support\\Collection->each(Object(Closure))
+#7 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/spatie/laravel-medialibrary/src/Support/MediaStream.php(64): Spatie\\MediaLibrary\\Support\\MediaStream->getZipStream()
+#8 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/StreamedResponse.php(112): Spatie\\MediaLibrary\\Support\\MediaStream->Spatie\\MediaLibrary\\Support\\{closure}()
+#9 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/symfony/http-foundation/Response.php(381): Symfony\\Component\\HttpFoundation\\StreamedResponse->sendContent()
+#10 /home/u816186965/domains/terminatorpunch.com/public_html/portal/vendor/laravel/framework/src/Illuminate/Support/HigherOrderTapProxy.php(34): Symfony\\Component\\HttpFoundation\\Response->send()
+#11 /home/u816186965/domains/terminatorpunch.com/public_html/portal/public/index.php(53): Illuminate\\Support\\HigherOrderTapProxy->__call('send', Array)
+#12 {main}
+"} 
